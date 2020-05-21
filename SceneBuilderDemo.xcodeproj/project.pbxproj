@@ -16,9 +16,9 @@
 		F8A0ED1E2476FD5F00184850 /* SceneBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F8A0ED0E2476FD5F00184850 /* SceneBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8A0ED212476FD5F00184850 /* SceneBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A0ED0C2476FD5F00184850 /* SceneBuilder.framework */; };
 		F8A0ED222476FD5F00184850 /* SceneBuilder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8A0ED0C2476FD5F00184850 /* SceneBuilder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F8A0ED2B2476FD8A00184850 /* SceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0ED2A2476FD8A00184850 /* SceneBuilder.swift */; };
 		F8A0ED2E2476FDBB00184850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0ED2C2476FDBB00184850 /* ViewController.swift */; };
 		F8A0ED2F2476FDBB00184850 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A0ED2D2476FDBB00184850 /* ViewController.xib */; };
+		F8A0ED312477186D00184850 /* SceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A0ED302477186D00184850 /* SceneBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,9 +81,9 @@
 		F8A0ED142476FD5F00184850 /* SceneBuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SceneBuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A0ED1B2476FD5F00184850 /* SceneBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBuilderTests.swift; sourceTree = "<group>"; };
 		F8A0ED1D2476FD5F00184850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8A0ED2A2476FD8A00184850 /* SceneBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneBuilder.swift; sourceTree = "<group>"; };
 		F8A0ED2C2476FDBB00184850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8A0ED2D2476FDBB00184850 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		F8A0ED302477186D00184850 /* SceneBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneBuilder.swift; path = SceneBuilder/SceneBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +167,7 @@
 		F8A0ED0D2476FD5F00184850 /* SceneBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				F8A0ED2A2476FD8A00184850 /* SceneBuilder.swift */,
+				F8A0ED302477186D00184850 /* SceneBuilder.swift */,
 				F8A0ED0E2476FD5F00184850 /* SceneBuilder.h */,
 				F8A0ED0F2476FD5F00184850 /* Info.plist */,
 			);
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8A0ED2B2476FD8A00184850 /* SceneBuilder.swift in Sources */,
+				F8A0ED312477186D00184850 /* SceneBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
