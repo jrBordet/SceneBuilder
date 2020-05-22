@@ -1,5 +1,16 @@
 # SceneBuilder
 
+## Installation - CocoaPods
+
+```
+ source "https://github.com/jrBordet/RxFramework.podspec.git"
+ source "https://cdn.cocoapods.org/"
+ 
+ pod 'SceneBuilder', '1.0.0'
+ ```
+
+## Usage
+
 ```swift
 import SceneBuilder
 
