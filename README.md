@@ -23,9 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
                 
-        let rootScene =
-            Scene<ViewController>()
-                .render()
+        let rootScene = Scene<ViewController>().render()
                     
         self.window?.rootViewController = UINavigationController(rootViewController: rootScene)
         
