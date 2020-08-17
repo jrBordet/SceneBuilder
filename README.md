@@ -2,12 +2,17 @@
 
 ## Installation - CocoaPods
 
-```
- source "https://github.com/jrBordet/RxFramework.podspec.git"
- source "https://cdn.cocoapods.org/"
  
+ ```ruby
+source 'https://github.com/jrBordet/Sources.git'
+source 'https://cdn.cocoapods.org/'
+
+target 'Target' do
+
  pod 'SceneBuilder', '1.0.0'
- ```
+
+end
+
 
 ## Usage
 
